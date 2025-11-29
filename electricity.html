@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill Calculator</title>
+     <link type="text/css" rel="stylesheet" href="../css/electricity.css">
+
+</head>
+<body>
+    <div class="main">
+     <div class="gallery-container">
+        <div class="product-box">
+            <h1>Electricity Bill Calculator</h1>
+
+        <table border="1" >
+            <caption><h3><font color="gray"> Current Tariffs Slabs </font></h3></caption>
+            <tr>
+                <th>Units</th>
+                <th> Rate per person(Rs) </th>
+            </tr>
+            <tr>
+                <td> 0-100 </td>
+                <td> 5 </td>
+            </tr>
+            <tr>
+                <td> 101-200 </td>
+                <td> 7</td>
+            </tr>
+            <tr>
+                <td> 201 and above </td>
+                <td> 10</td>
+            </tr>
+            
+        </table>
+            <h3>Enter the units consumed</h3>
+            <input type="number" id="num1" placeholder="enter the units consumed"/>
+            <br><br>
+            <button onclick="electricity()">Calculate</button> 
+            <h3 id="calculate"></h3>  
+        
+
+            
+      </div>
+      <script src="../jsfiles/electricity.js"></script>
+    </div>
+</div>
+</body>
+</html>
